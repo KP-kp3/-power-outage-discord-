@@ -197,9 +197,6 @@ def detect_generic_js(text):
         total = sum(h for _, h in real if h)
         parts = [f"{p}約{h:,}戸" for p, h in real][:8]
         return (True, total, "停電発生中: " + " / ".join(parts))
-    # 発生を示す語
-    if re.search(r"停電(が発生|発生中|中の停電)", text):
-        return (True, None, "停電発生の可能性")
     return (False, 0, "停電なし")
 
 
