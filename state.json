@@ -1,1 +1,72 @@
-{}
+{
+  "hokkaido": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:36:36.833478+09:00",
+    "error": null
+  },
+  "tohoku": {
+    "has_outage": true,
+    "households": null,
+    "summary": "停電発生の可能性",
+    "checked_at": "2026-07-17T11:36:49.105825+09:00",
+    "error": null
+  },
+  "tepco": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:36:55.861520+09:00",
+    "error": null
+  },
+  "chubu": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:37:02.387305+09:00",
+    "error": null
+  },
+  "hokuriku": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:37:03.622037+09:00",
+    "error": null
+  },
+  "kansai": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:37:04.050177+09:00",
+    "error": null
+  },
+  "chugoku": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:37:06.202446+09:00",
+    "error": null
+  },
+  "shikoku": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:37:07.165806+09:00",
+    "error": null
+  },
+  "kyushu": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:37:18.389097+09:00",
+    "error": null
+  },
+  "okinawa": {
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-07-17T11:37:27.443827+09:00",
+    "error": null
+  }
+}
