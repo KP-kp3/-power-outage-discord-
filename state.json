@@ -3,70 +3,70 @@
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:45:34.451885+09:00",
+    "checked_at": "2026-08-21T19:14:49.886440+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:45:48.250527+09:00",
+    "checked_at": "2026-08-21T19:15:01.745832+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:45:54.911009+09:00",
+    "checked_at": "2026-08-21T19:15:08.452014+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:46:01.469226+09:00",
+    "checked_at": "2026-08-21T19:15:14.876960+09:00",
     "error": null
   },
   "hokuriku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:46:02.228421+09:00",
-    "error": "404 Client Error: Not Found for url: https://www.rikuden.co.jp/nw/teiden/otj010.html"
+    "checked_at": "2026-08-21T19:15:15.620684+09:00",
+    "error": null
   },
   "kansai": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:46:03.456482+09:00",
+    "checked_at": "2026-08-21T19:15:16.857738+09:00",
     "error": null
   },
   "chugoku": {
     "has_outage": true,
-    "households": 660,
-    "summary": "停電発生中: 岡山県約500戸 / 広島県約160戸",
-    "checked_at": "2026-08-21T18:46:05.145525+09:00",
+    "households": 790,
+    "summary": "停電発生中: 岡山県約630戸 / 広島県約160戸",
+    "checked_at": "2026-08-21T19:15:17.980039+09:00",
     "error": null
   },
   "shikoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:46:05.571133+09:00",
+    "checked_at": "2026-08-21T19:15:18.892313+09:00",
     "error": null
   },
   "kyushu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:46:15.416118+09:00",
+    "checked_at": "2026-08-21T19:15:30.790812+09:00",
     "error": null
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T18:46:23.747604+09:00",
+    "checked_at": "2026-08-21T19:15:39.309961+09:00",
     "error": null
   }
 }
