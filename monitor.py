@@ -219,7 +219,7 @@ PROVIDERS = [
      "https://teiden-info.hepco.co.jp/", detect_hokkaido, "high"),
     ("tohoku", "東北電力ネットワーク", "browser",
      "https://nw.tohoku-epco.co.jp/teideninfo/", detect_generic_js, "best-effort"),
-        ("tepco", "東京電力パワーグリッド", "http",
+    ("tepco", "東京電力パワーグリッド", "browser",
      "https://teideninfo.tepco.co.jp/html/00000000000.html", detect_tepco, "high"),
     ("chubu", "中部電力パワーグリッド", "browser",
      "https://teiden.chuden.jp/p/index.html", detect_generic_js, "best-effort"),
