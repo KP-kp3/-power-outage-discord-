@@ -3,70 +3,70 @@
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T17:57:55.795846+09:00",
+    "checked_at": "2026-08-21T18:45:34.451885+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T17:58:09.092766+09:00",
+    "checked_at": "2026-08-21T18:45:48.250527+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T17:58:15.717715+09:00",
+    "checked_at": "2026-08-21T18:45:54.911009+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T17:58:22.022292+09:00",
+    "checked_at": "2026-08-21T18:46:01.469226+09:00",
     "error": null
   },
   "hokuriku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T17:58:22.476654+09:00",
-    "error": null
+    "checked_at": "2026-08-21T18:46:02.228421+09:00",
+    "error": "404 Client Error: Not Found for url: https://www.rikuden.co.jp/nw/teiden/otj010.html"
   },
   "kansai": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T17:58:23.055809+09:00",
+    "checked_at": "2026-08-21T18:46:03.456482+09:00",
     "error": null
   },
   "chugoku": {
     "has_outage": true,
-    "households": 160,
-    "summary": "停電発生中: 広島県約160戸",
-    "checked_at": "2026-08-21T17:58:24.797892+09:00",
+    "households": 660,
+    "summary": "停電発生中: 岡山県約500戸 / 広島県約160戸",
+    "checked_at": "2026-08-21T18:46:05.145525+09:00",
     "error": null
   },
   "shikoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T17:58:25.393738+09:00",
+    "checked_at": "2026-08-21T18:46:05.571133+09:00",
     "error": null
   },
   "kyushu": {
-    "has_outage": true,
-    "households": 110,
-    "summary": "停電発生中: 福岡県約110戸",
-    "checked_at": "2026-08-21T17:58:37.234855+09:00",
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-08-21T18:46:15.416118+09:00",
     "error": null
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-21T17:58:46.313347+09:00",
+    "checked_at": "2026-08-21T18:46:23.747604+09:00",
     "error": null
   }
 }
