@@ -203,14 +203,24 @@ def detect_generic_js(text):
 # ---------------------------------------------------------------------------
 # 会社定義
 # ---------------------------------------------------------------------------
+def detect_tepco(text):
+    # 東電は「住所から検索」ページの表に都県別の停電軒数（○○軒）がテキストで載る。
+    # 停電なしのときは全て「-」表示で「N軒」は現れない。
+    counts = [_to_int(c) for c in re.findall(r"([\d,]+)\s*軒", text)]
+    nums = [c for c in counts if c]
+    if nums:
+        total = sum(nums)
+        return (True, total, f"停電発生中（約{total:,}軒）")
+    return (False, 0, "停電なし")
+  
 PROVIDERS = [
     # key, 表示名, 取得方法, URL, 検知関数, 信頼度
     ("hokkaido", "北海道電力ネットワーク", "http",
      "https://teiden-info.hepco.co.jp/", detect_hokkaido, "high"),
     ("tohoku", "東北電力ネットワーク", "browser",
      "https://nw.tohoku-epco.co.jp/teideninfo/", detect_generic_js, "best-effort"),
-    ("tepco", "東京電力パワーグリッド", "browser",
-     "https://teideninfo.tepco.co.jp/", detect_generic_js, "best-effort"),
+        ("tepco", "東京電力パワーグリッド", "http",
+     "https://teideninfo.tepco.co.jp/html/00000000000.html", detect_tepco, "high"),
     ("chubu", "中部電力パワーグリッド", "browser",
      "https://teiden.chuden.jp/p/index.html", detect_generic_js, "best-effort"),
     ("hokuriku", "北陸電力送配電", "http",
