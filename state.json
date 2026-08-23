@@ -3,70 +3,70 @@
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:12.852557+09:00",
+    "checked_at": "2026-08-24T06:44:37.511709+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:21.458808+09:00",
+    "checked_at": "2026-08-24T06:44:48.658303+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:25.220806+09:00",
+    "checked_at": "2026-08-24T06:44:52.284331+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:28.668557+09:00",
+    "checked_at": "2026-08-24T06:44:55.584517+09:00",
     "error": null
   },
   "hokuriku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:29.190875+09:00",
+    "checked_at": "2026-08-24T06:44:56.039461+09:00",
     "error": null
   },
   "kansai": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:31.121077+09:00",
+    "checked_at": "2026-08-24T06:44:56.346028+09:00",
     "error": null
   },
   "chugoku": {
     "has_outage": true,
     "households": null,
     "summary": "停電発生中",
-    "checked_at": "2026-08-24T06:23:32.365113+09:00",
+    "checked_at": "2026-08-24T06:44:57.355652+09:00",
     "error": null
   },
   "shikoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:32.887919+09:00",
+    "checked_at": "2026-08-24T06:44:58.223626+09:00",
     "error": null
   },
   "kyushu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:40.219759+09:00",
+    "checked_at": "2026-08-24T06:45:05.759275+09:00",
     "error": null
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-24T06:23:45.166519+09:00",
+    "checked_at": "2026-08-24T06:45:10.881912+09:00",
     "error": null
   }
 }
