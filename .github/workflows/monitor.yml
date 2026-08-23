@@ -2,7 +2,7 @@ name: 停電情報モニター
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -25,10 +25,17 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: 依存関係をインストール
-        run: |
-          pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
+      - name: 依存パッケージをインストール
+        run: pip install -r requirements.txt
+
+      - name: Playwrightブラウザをキャッシュ
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-v1
+
+      - name: Chromium を準備
+        run: python -m playwright install --with-deps chromium
 
       - name: 停電チェックを実行
         env:
