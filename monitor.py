@@ -69,7 +69,7 @@ def _get_browser():
     return _PW["browser"]
 
 
-def fetch_browser(url, wait_ms=6000, timeout=45000):
+def fetch_browser(url, wait_ms=3000, timeout=45000):
     """Playwright で描画後の可視テキストを返す。"""
     browser = _get_browser()
     ctx = browser.new_context(user_agent=UA, locale="ja-JP")
