@@ -3,70 +3,70 @@
     "has_outage": true,
     "households": 70,
     "summary": "停電発生中（約70戸）",
-    "checked_at": "2026-08-25T18:59:05.434933+09:00",
+    "checked_at": "2026-08-25T19:41:44.710338+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-25T18:59:17.134679+09:00",
+    "checked_at": "2026-08-25T19:41:54.274287+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-25T18:59:20.772772+09:00",
+    "checked_at": "2026-08-25T19:41:58.090550+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-25T18:59:24.361814+09:00",
+    "checked_at": "2026-08-25T19:42:01.767300+09:00",
     "error": null
   },
   "hokuriku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-25T18:59:25.579805+09:00",
+    "checked_at": "2026-08-25T19:42:02.471095+09:00",
     "error": null
   },
   "kansai": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-25T18:59:26.222796+09:00",
+    "checked_at": "2026-08-25T19:42:03.017332+09:00",
     "error": null
   },
   "chugoku": {
     "has_outage": true,
-    "households": 60,
-    "summary": "停電発生中: 山口県約60戸",
-    "checked_at": "2026-08-25T18:59:27.341261+09:00",
+    "households": null,
+    "summary": "停電発生中",
+    "checked_at": "2026-08-25T19:42:04.706796+09:00",
     "error": null
   },
   "shikoku": {
     "has_outage": true,
     "households": null,
     "summary": "停電発生中: 愛媛県",
-    "checked_at": "2026-08-25T18:59:28.772005+09:00",
+    "checked_at": "2026-08-25T19:42:05.635941+09:00",
     "error": null
   },
   "kyushu": {
     "has_outage": true,
-    "households": 3190,
-    "summary": "停電発生中: 鹿児島県約3,190戸",
-    "checked_at": "2026-08-25T18:59:36.535243+09:00",
+    "households": 32080,
+    "summary": "停電発生中: 鹿児島県約32,080戸",
+    "checked_at": "2026-08-25T19:42:14.327944+09:00",
     "error": null
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-08-25T18:59:41.657460+09:00",
+    "checked_at": "2026-08-25T19:42:19.199203+09:00",
     "error": null
   }
 }
