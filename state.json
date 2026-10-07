@@ -1,72 +1,72 @@
 {
   "hokkaido": {
-    "has_outage": true,
-    "households": 10,
-    "summary": "停電発生中（約10戸）",
-    "checked_at": "2026-10-07T15:50:53.629856+09:00",
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-10-07T23:02:59.448178+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-07T15:51:03.482292+09:00",
+    "checked_at": "2026-10-07T23:03:08.240422+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-07T15:51:07.099909+09:00",
+    "checked_at": "2026-10-07T23:03:12.011112+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-07T15:51:10.245062+09:00",
+    "checked_at": "2026-10-07T23:03:15.566666+09:00",
     "error": null
   },
   "hokuriku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-07T15:51:10.685277+09:00",
+    "checked_at": "2026-10-07T23:03:16.274225+09:00",
     "error": null
   },
   "kansai": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-07T15:51:11.009970+09:00",
+    "checked_at": "2026-10-07T23:03:16.635649+09:00",
     "error": null
   },
   "chugoku": {
     "has_outage": true,
     "households": null,
     "summary": "停電発生中",
-    "checked_at": "2026-10-07T15:51:12.095543+09:00",
+    "checked_at": "2026-10-07T23:03:17.467988+09:00",
     "error": null
   },
   "shikoku": {
-    "has_outage": false,
-    "households": 0,
-    "summary": "停電なし",
-    "checked_at": "2026-10-07T15:51:12.840122+09:00",
+    "has_outage": true,
+    "households": null,
+    "summary": "停電発生中: 愛媛県",
+    "checked_at": "2026-10-07T23:03:18.231827+09:00",
     "error": null
   },
   "kyushu": {
-    "has_outage": true,
-    "households": 20,
-    "summary": "停電発生中: 宮崎県約20戸",
-    "checked_at": "2026-10-07T15:51:21.065442+09:00",
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-10-07T23:03:27.137521+09:00",
     "error": null
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-07T15:51:26.185069+09:00",
+    "checked_at": "2026-10-07T23:03:33.059953+09:00",
     "error": null
   }
 }
