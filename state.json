@@ -1,51 +1,51 @@
 {
   "hokkaido": {
-    "has_outage": false,
-    "households": 0,
-    "summary": "停電なし",
-    "checked_at": "2026-10-22T02:59:17.500633+09:00",
+    "has_outage": true,
+    "households": 40,
+    "summary": "停電発生中（約40戸）",
+    "checked_at": "2026-10-22T06:33:16.912980+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T02:59:26.750985+09:00",
+    "checked_at": "2026-10-22T06:33:26.396355+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T02:59:30.437555+09:00",
+    "checked_at": "2026-10-22T06:33:30.054243+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T02:59:33.756376+09:00",
+    "checked_at": "2026-10-22T06:33:33.261774+09:00",
     "error": null
   },
   "hokuriku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T02:59:34.401071+09:00",
+    "checked_at": "2026-10-22T06:33:34.279184+09:00",
     "error": null
   },
   "kansai": {
     "has_outage": true,
     "households": null,
     "summary": "停電が発生している可能性があります",
-    "checked_at": "2026-10-22T02:59:34.918034+09:00",
+    "checked_at": "2026-10-22T06:33:34.802809+09:00",
     "error": "503 Server Error: Service Unavailable for url: https://www.kansai-td.co.jp/teiden-info/index.php"
   },
   "chugoku": {
     "has_outage": true,
     "households": null,
     "summary": "停電発生中",
-    "checked_at": "2026-10-22T02:59:36.050373+09:00",
+    "checked_at": "2026-10-22T06:33:35.995250+09:00",
     "error": null
   },
   "shikoku": {
@@ -59,14 +59,14 @@
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T02:59:58.540458+09:00",
+    "checked_at": "2026-10-22T06:35:09.514344+09:00",
     "error": null
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T03:00:02.597723+09:00",
+    "checked_at": "2026-10-22T06:35:13.375221+09:00",
     "error": null
   }
 }
