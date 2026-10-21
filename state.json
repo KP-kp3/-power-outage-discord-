@@ -3,70 +3,70 @@
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-21T10:56:24.183880+09:00",
+    "checked_at": "2026-10-21T16:16:31.080950+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-21T10:56:34.882967+09:00",
+    "checked_at": "2026-10-21T16:16:41.213149+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-21T10:56:38.533027+09:00",
+    "checked_at": "2026-10-21T16:16:44.800419+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-21T10:56:41.745955+09:00",
+    "checked_at": "2026-10-21T16:16:48.275254+09:00",
     "error": null
   },
   "hokuriku": {
-    "has_outage": false,
-    "households": 0,
-    "summary": "停電なし",
-    "checked_at": "2026-10-21T10:56:42.905171+09:00",
+    "has_outage": true,
+    "households": null,
+    "summary": "停電が発生している可能性があります",
+    "checked_at": "2026-10-21T16:16:48.862816+09:00",
     "error": null
   },
   "kansai": {
     "has_outage": true,
     "households": null,
     "summary": "停電が発生している可能性があります",
-    "checked_at": "2026-10-21T10:56:43.552869+09:00",
+    "checked_at": "2026-10-21T16:16:49.250938+09:00",
     "error": null
   },
   "chugoku": {
     "has_outage": true,
     "households": null,
     "summary": "停電発生中",
-    "checked_at": "2026-10-21T10:56:44.631980+09:00",
+    "checked_at": "2026-10-21T16:16:50.895993+09:00",
     "error": null
   },
   "shikoku": {
-    "has_outage": false,
-    "households": 0,
-    "summary": "停電なし",
-    "checked_at": "2026-10-21T10:56:45.006924+09:00",
+    "has_outage": true,
+    "households": null,
+    "summary": "停電発生中: 愛媛県",
+    "checked_at": "2026-10-21T16:16:51.815345+09:00",
     "error": null
   },
   "kyushu": {
     "has_outage": true,
-    "households": 180,
-    "summary": "停電発生中: 長崎県約180戸",
-    "checked_at": "2026-10-21T10:56:54.042863+09:00",
+    "households": 10,
+    "summary": "停電発生中: 長崎県約10戸",
+    "checked_at": "2026-10-21T16:16:58.296331+09:00",
     "error": null
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-21T10:56:57.741960+09:00",
+    "checked_at": "2026-10-21T16:17:02.131693+09:00",
     "error": null
   }
 }
