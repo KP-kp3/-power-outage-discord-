@@ -3,70 +3,70 @@
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T18:42:41.333501+09:00",
+    "checked_at": "2026-10-22T23:50:35.572116+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T18:42:50.441299+09:00",
+    "checked_at": "2026-10-22T23:50:44.840234+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T18:42:54.063959+09:00",
+    "checked_at": "2026-10-22T23:50:48.579458+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T18:42:57.327073+09:00",
+    "checked_at": "2026-10-22T23:50:52.153495+09:00",
     "error": null
   },
   "hokuriku": {
-    "has_outage": true,
-    "households": null,
-    "summary": "停電が発生している可能性があります",
-    "checked_at": "2026-10-22T18:42:57.816659+09:00",
+    "has_outage": false,
+    "households": 0,
+    "summary": "停電なし",
+    "checked_at": "2026-10-22T23:50:52.743661+09:00",
     "error": null
   },
   "kansai": {
     "has_outage": true,
     "households": null,
     "summary": "停電が発生している可能性があります",
-    "checked_at": "2026-10-22T18:42:58.390757+09:00",
-    "error": "503 Server Error: Service Unavailable for url: https://www.kansai-td.co.jp/teiden-info/index.php"
+    "checked_at": "2026-10-22T23:50:53.851739+09:00",
+    "error": null
   },
   "chugoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T18:42:59.355880+09:00",
+    "checked_at": "2026-10-22T23:50:55.603076+09:00",
     "error": null
   },
   "shikoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T18:43:00.197672+09:00",
+    "checked_at": "2026-10-22T23:50:56.451390+09:00",
     "error": null
   },
   "kyushu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T18:43:21.992889+09:00",
-    "error": null
+    "checked_at": "2026-10-22T23:54:16.339787+09:00",
+    "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-22T18:43:25.648020+09:00",
+    "checked_at": "2026-10-22T23:54:20.299141+09:00",
     "error": null
   }
 }
