@@ -3,70 +3,70 @@
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-23T09:35:31.182600+09:00",
+    "checked_at": "2026-10-23T14:20:14.049079+09:00",
     "error": null
   },
   "tohoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-23T09:35:42.314203+09:00",
+    "checked_at": "2026-10-23T14:20:26.829497+09:00",
     "error": null
   },
   "tepco": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-23T09:35:46.077620+09:00",
+    "checked_at": "2026-10-23T14:20:30.439454+09:00",
     "error": null
   },
   "chubu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-23T09:35:49.400605+09:00",
+    "checked_at": "2026-10-23T14:20:33.675804+09:00",
     "error": null
   },
   "hokuriku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-23T09:35:50.175352+09:00",
+    "checked_at": "2026-10-23T14:20:34.353280+09:00",
     "error": null
   },
   "kansai": {
     "has_outage": true,
     "households": null,
     "summary": "停電が発生している可能性があります",
-    "checked_at": "2026-10-23T09:35:50.626319+09:00",
+    "checked_at": "2026-10-23T14:20:34.777989+09:00",
     "error": null
   },
   "chugoku": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-23T09:35:51.165771+09:00",
+    "checked_at": "2026-10-23T14:20:35.590492+09:00",
     "error": null
   },
   "shikoku": {
-    "has_outage": false,
-    "households": 0,
-    "summary": "停電なし",
-    "checked_at": "2026-10-23T09:35:51.484592+09:00",
+    "has_outage": true,
+    "households": null,
+    "summary": "停電発生中: 愛媛県",
+    "checked_at": "2026-10-23T14:20:36.076720+09:00",
     "error": null
   },
   "kyushu": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-23T09:39:11.479943+09:00",
-    "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    "checked_at": "2026-10-23T14:20:45.707534+09:00",
+    "error": null
   },
   "okinawa": {
     "has_outage": false,
     "households": 0,
     "summary": "停電なし",
-    "checked_at": "2026-10-23T09:39:15.454042+09:00",
+    "checked_at": "2026-10-23T14:20:49.545498+09:00",
     "error": null
   }
 }
